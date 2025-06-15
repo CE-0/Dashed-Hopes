@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cfmht5poe8fc7"]
+
+[node name="Title Screen" type="Node2D"]
+
+[node name="Logo" type="Sprite2D" parent="."]
+
+[node name="Start Button" type="Button" parent="."]
+offset_right = 246.0
+offset_bottom = 60.0
+text = "START"
+
+[node name="Camera2D" type="Camera2D" parent="."]
